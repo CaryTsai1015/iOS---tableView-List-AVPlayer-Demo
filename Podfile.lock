@@ -1,0 +1,18 @@
+PODS:
+  - ModernAVPlayer (1.2.0):
+    - ModernAVPlayer/Core (= 1.2.0)
+  - ModernAVPlayer/Core (1.2.0)
+
+DEPENDENCIES:
+  - ModernAVPlayer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ModernAVPlayer
+
+SPEC CHECKSUMS:
+  ModernAVPlayer: 81b9e436bc16b8e530abc448eaeadf2bd97be597
+
+PODFILE CHECKSUM: b9192b77f6b007f4a12368edcd8650a2fd5fdffc
+
+COCOAPODS: 1.6.1

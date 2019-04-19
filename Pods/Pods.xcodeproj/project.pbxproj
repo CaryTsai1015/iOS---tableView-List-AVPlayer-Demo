@@ -1,0 +1,1133 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009F0AC1609F5051CE43CBB93D5736BA /* ModernAVPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA71719D7EC5BAA36E7E43EFE1ABDFA /* ModernAVPlayer-dummy.m */; };
+		059C0034511150B35A306B6EEAF395EF /* PlayerContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2854EF7540BA95C581C4B1D648C3C869 /* PlayerContext.swift */; };
+		1829779037F6BF0F8C9984B502E42675 /* ModernAVPlayerLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F15CD3F74DEA70846B0B261F0EC4751 /* ModernAVPlayerLogger.swift */; };
+		1D821CB972717168B46EA66783BE3DD4 /* ModernAVPlayerLoggerDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706E6EDC938BE6F6B74A9BAFB5C0E3A5 /* ModernAVPlayerLoggerDomain.swift */; };
+		1F950D4757A33194164E6E92ABCB6AA5 /* PlayerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D57141C1BFC40A37DA5EE338E039F93 /* PlayerConfiguration.swift */; };
+		208A9867C2D6FA8BE4F253B43E033F25 /* PlayerCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C272D50D4DAE751A2A492A1A1BC0B /* PlayerCommand.swift */; };
+		2712262AE85D46FCF885A0A5B7E9B0E0 /* Pods-videoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDF2CE951E2BC29069EEB107A18E516 /* Pods-videoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		312589BDBB119D0259A1B5D7A1FC6945 /* InterruptionAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759896AC4BFEBF8D85722ACAC180C267 /* InterruptionAudioService.swift */; };
+		32481259E5DF5C428E00C9237E868FD5 /* StoppedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87378DE82147DB51E67AEF8D88F83420 /* StoppedState.swift */; };
+		33ADD43AC4ED5D5D0764D401508A6DD0 /* MediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE4332768C2608D7DA26B2914CDCA1F /* MediaPlayer.swift */; };
+		38D217352D1E5A5EF3247C4D7A4A0380 /* BufferingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0984B6CE4A3C0356074FB6B28069A995 /* BufferingState.swift */; };
+		441535FF4CB2BFB6761A3CC4D256341C /* ModernAVPlayerExposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BBC1343737717BACFC91A999207539 /* ModernAVPlayerExposable.swift */; };
+		47A4A1F56E80C3579E41AAEA56600C19 /* LoadedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4176132A33A479FA33C6215986368BDC /* LoadedState.swift */; };
+		4BCEC017CD5A9CEEE8524F8F93B85293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		4BDAF6C8895ED93D2708D1E8C952D654 /* InitState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79BF7F8A8AC6CED52D66C957383E1FA /* InitState.swift */; };
+		4D9B8DE33F62622961FF858E342AB221 /* TimerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E0D2A44234A872473B78F226DDB41 /* TimerFactory.swift */; };
+		50110E873FD0003DCA53A06BACED2C74 /* ItemStatusObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A556E644BF0CC9C96CE26372AFFA7DC /* ItemStatusObservingService.swift */; };
+		5D5BB8E906F952460203257B0ED0FE07 /* ModernAVPlayerCurrentState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF08B784FC6CAD658EF9FAE38A47948 /* ModernAVPlayerCurrentState.swift */; };
+		606EE6B3FE97DEB29FC0C8CD69E31564 /* Pods-video-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C2019C4668C30B994E6E74BF6E8DA3 /* Pods-video-dummy.m */; };
+		6BBF37440B958710A5A0812FC4CA3378 /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491E77162156B55DA86BE9FB8CB832A /* MediaType.swift */; };
+		703A954309C4AB60CEF4C4BF4F7EA799 /* Pods-videoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C8276A54EAB5AD9F69FF7F3976DEA5E /* Pods-videoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72C2A2D795CD3F2B85360D8A52C7B84B /* ModernAVPlayerMediaMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4AAC466872FB956F0AB5E8067370E /* ModernAVPlayerMediaMetadata.swift */; };
+		75A54B3856D23F0392C25F369B8EC00C /* ModernAVPlayerRemoteCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848E1A69C510D9D8682A16576455E29 /* ModernAVPlayerRemoteCommand.swift */; };
+		79FBC0D91C5361C0BD1B5D52511EA0F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		7C1EB4F6AE79A0C09119C54C02E8148E /* PlaybackObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB1ECA952212438479BC115D68AEC4 /* PlaybackObservingService.swift */; };
+		837C67E4ED33768C801C013B2F4CE8DC /* ModernAVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904E3BA0B559383F7293D656C315A74E /* ModernAVPlayer.swift */; };
+		8EB1B08D6B4D23446BF4F2CA08B910DD /* WaitingNetworkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23B4790DF7FDF13AAF98ED22A87BAE7 /* WaitingNetworkState.swift */; };
+		9393F284958D3FEF3359AA8F468AFA39 /* ModernAVPlayerRemoteCommandFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E56A20DBBD50E4CE4EA48440C485ECC /* ModernAVPlayerRemoteCommandFactory.swift */; };
+		A46479BA9E52451E9D8C312A05A69997 /* PlayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C18C2D7302337FB7628AC9D8C99AF1 /* PlayerError.swift */; };
+		A903F46F671D16F9806B584097DA9BCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		AAA6064F68434833F6CB529FE44AEA84 /* Pods-videoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D34D7D55B9FA40A89A1E9E4C1BD91B05 /* Pods-videoUITests-dummy.m */; };
+		AE8AAAF559F20437D7F933D81263623B /* ModernAVPlayerMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F9AD4599427EA0FDEBFB1F09D7BAF /* ModernAVPlayerMedia.swift */; };
+		B076BD3CAF077CF168D0DA50FDE3AECB /* PlayerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0A119087365FB172B38ED3444EEEC /* PlayerPlugin.swift */; };
+		B0EC81D59CCD1B6C0C2C15BA7D4C8C51 /* RateObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF0943B5BEF68A446FD8DF5ABE715CA /* RateObservingService.swift */; };
+		B7EC1D3B5780E2C8EEA506630A15C8AA /* NowPlayingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB085A850BD910F94EC90ACB82A56F27 /* NowPlayingService.swift */; };
+		B8E5CCFBE1502FCACF04415138FEC7AD /* AVPlayerRemoteCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFD976AF054BE883055B85784EF18F /* AVPlayerRemoteCommand.swift */; };
+		C4630BFC7D9D180878533F07D230B14A /* ReachabilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE25485F4E0C164897F87E8B7F44C2B /* ReachabilityService.swift */; };
+		CAAB7D167F7AA87554752723F9788AAE /* URLSessionDataTaskFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458F839388C1D419B4F2121F33BB5DC2 /* URLSessionDataTaskFactory.swift */; };
+		CB44DFC6E9A8EE4D209A96F9E36A248D /* RouteAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3AC76F503D56D9D676B8E175E7C19F /* RouteAudioService.swift */; };
+		CC0D4C3ACCB7314E4A63E10B5392D0D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CF9D853D6466C7C2A0C7B405F8FDB06C /* Pods-video-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD82ECE8BB3DD854264DFFD6F72143A /* Pods-video-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D30DD055422016CDE98FC43100C3CFD1 /* PlayerMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B83EC5221C238A56F737370107636E /* PlayerMedia.swift */; };
+		D3B006DEA314FB818C309517B0261BA2 /* PausedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715DE13E4A37746C289D93700D24590D /* PausedState.swift */; };
+		D4480E37DB8AE893D75EB67EE6294296 /* Pods-videoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 531177045A0F9429C05473C0105E9508 /* Pods-videoTests-dummy.m */; };
+		D48862B8B6EAC84498450762F58B1AD7 /* FailedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19118661BE612A3BE92327DF9EB929F1 /* FailedState.swift */; };
+		D818A022A41624C67DE52923B30E3FC1 /* AudioSessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E59382F35764B9EE9E96A24EC82F2F0 /* AudioSessionService.swift */; };
+		D99C0BC1291F4144B42EDD2F8DD0B930 /* ModernAVPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C19668052F0600938EE1B5CFE8196D /* ModernAVPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B10C7D0AE5D2FB14714885A5B4C852 /* PlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EC870C487ADFF650D44B06A02D12AD /* PlayerState.swift */; };
+		E07FF7FED3C5BB155308B786F98314F2 /* PlayingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6F90B9CDD574E0350D447370A2501 /* PlayingState.swift */; };
+		F3FB5F07FE743772E94E9C4912646CCC /* PlayerMediaMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBC275A439CF2625F6078CC98DE388 /* PlayerMediaMetadata.swift */; };
+		F464A50F5769630D162C51B5DD29B4F4 /* LoadingMediaState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C2851F1E9DEA5959EFDA57E37EADE5 /* LoadingMediaState.swift */; };
+		FD3BD5D097ECB3DC77BF4B5A9BA69470 /* ModernAVPlayerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5586B6298B3D21AAF2D7764F59B1C2D8 /* ModernAVPlayerConfiguration.swift */; };
+		FEBB8B33EDE8D0DFB0669F4D145CC06C /* CustomAudioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F82FDD0E938B118FC214D22CC1B9FD /* CustomAudioSession.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8057A18E781ABFD00A43FE96B671F029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0672FC5E4A7F9DF5682FFE9743EBEA30;
+			remoteInfo = ModernAVPlayer;
+		};
+		8582876C11A5CD0966817910993AD1E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559F69EB8D99F5E6A3C207CF374BF428;
+			remoteInfo = "Pods-video";
+		};
+		D574A56A33D3F041F7A938A0E4B61294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559F69EB8D99F5E6A3C207CF374BF428;
+			remoteInfo = "Pods-video";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BA61EF1771E5948BBA75AEFD930DA2 /* Pods_video.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_video.framework; path = "Pods-video.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0491E77162156B55DA86BE9FB8CB832A /* MediaType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaType.swift; path = Sources/Core/Components/MediaType.swift; sourceTree = "<group>"; };
+		06725339F92D4252F4B10A1069C06E21 /* Pods-video-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-video-frameworks.sh"; sourceTree = "<group>"; };
+		0984B6CE4A3C0356074FB6B28069A995 /* BufferingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BufferingState.swift; path = Sources/Core/State/BufferingState.swift; sourceTree = "<group>"; };
+		0AA71719D7EC5BAA36E7E43EFE1ABDFA /* ModernAVPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModernAVPlayer-dummy.m"; sourceTree = "<group>"; };
+		0ABAC88B14A807460C08DF6CC0BA2F4A /* Pods-videoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-videoTests.modulemap"; sourceTree = "<group>"; };
+		0ABBCE80C0C77110F4E8748BE0E90827 /* Pods-videoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-videoTests-Info.plist"; sourceTree = "<group>"; };
+		0C180382A90849172D143C3968F58137 /* Pods_videoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_videoTests.framework; path = "Pods-videoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE25485F4E0C164897F87E8B7F44C2B /* ReachabilityService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReachabilityService.swift; path = Sources/Core/Services/ReachabilityService.swift; sourceTree = "<group>"; };
+		0FF313B236261D8CC4D1788DB21376EE /* Pods-videoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-videoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19118661BE612A3BE92327DF9EB929F1 /* FailedState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailedState.swift; path = Sources/Core/State/FailedState.swift; sourceTree = "<group>"; };
+		19AB1ECA952212438479BC115D68AEC4 /* PlaybackObservingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaybackObservingService.swift; path = Sources/Core/Services/PlaybackObservingService.swift; sourceTree = "<group>"; };
+		19D1C340B3FDC57774AEFD9F606AC724 /* Pods-videoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-videoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E59382F35764B9EE9E96A24EC82F2F0 /* AudioSessionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioSessionService.swift; path = Sources/Core/Services/AudioSessionService.swift; sourceTree = "<group>"; };
+		1E9F9AD4599427EA0FDEBFB1F09D7BAF /* ModernAVPlayerMedia.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernAVPlayerMedia.swift; path = Sources/Core/Components/ModernAVPlayerMedia.swift; sourceTree = "<group>"; };
+		2854EF7540BA95C581C4B1D648C3C869 /* PlayerContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayerContext.swift; path = Sources/Core/Components/PlayerContext.swift; sourceTree = "<group>"; };
+		29C19668052F0600938EE1B5CFE8196D /* ModernAVPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModernAVPlayer-umbrella.h"; sourceTree = "<group>"; };
+		2B652624EDDABE6613B87F248E92CEC1 /* Pods-videoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-videoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D57141C1BFC40A37DA5EE338E039F93 /* PlayerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayerConfiguration.swift; path = Sources/Core/Components/PlayerConfiguration.swift; sourceTree = "<group>"; };
+		2DF0943B5BEF68A446FD8DF5ABE715CA /* RateObservingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RateObservingService.swift; path = Sources/Core/Services/RateObservingService.swift; sourceTree = "<group>"; };
+		39BBC1343737717BACFC91A999207539 /* ModernAVPlayerExposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernAVPlayerExposable.swift; path = Sources/Core/Components/ModernAVPlayerExposable.swift; sourceTree = "<group>"; };
+		3CE4332768C2608D7DA26B2914CDCA1F /* MediaPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaPlayer.swift; path = Sources/Core/Components/MediaPlayer.swift; sourceTree = "<group>"; };
+		3D9E126B99E86DE1696F428E1CEED673 /* Pods-videoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-videoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3DBFD976AF054BE883055B85784EF18F /* AVPlayerRemoteCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVPlayerRemoteCommand.swift; path = Sources/Core/Components/RemoteCommand/AVPlayerRemoteCommand.swift; sourceTree = "<group>"; };
+		40EC870C487ADFF650D44B06A02D12AD /* PlayerState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayerState.swift; path = Sources/Core/Components/PlayerState.swift; sourceTree = "<group>"; };
+		4176132A33A479FA33C6215986368BDC /* LoadedState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadedState.swift; path = Sources/Core/State/LoadedState.swift; sourceTree = "<group>"; };
+		42A7E4C848224461CB48E2089F237421 /* ModernAVPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModernAVPlayer-prefix.pch"; sourceTree = "<group>"; };
+		458F839388C1D419B4F2121F33BB5DC2 /* URLSessionDataTaskFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionDataTaskFactory.swift; path = Sources/Core/Components/URLSessionDataTaskFactory.swift; sourceTree = "<group>"; };
+		46B83EC5221C238A56F737370107636E /* PlayerMedia.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayerMedia.swift; path = Sources/Core/Components/PlayerMedia.swift; sourceTree = "<group>"; };
+		48F766989C1EED99B87D847E572A0B5F /* Pods-videoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-videoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C8276A54EAB5AD9F69FF7F3976DEA5E /* Pods-videoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-videoTests-umbrella.h"; sourceTree = "<group>"; };
+		52AD27CECE320E793DDE20EBBD393CBF /* Pods-videoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-videoUITests-Info.plist"; sourceTree = "<group>"; };
+		531177045A0F9429C05473C0105E9508 /* Pods-videoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-videoTests-dummy.m"; sourceTree = "<group>"; };
+		5586B6298B3D21AAF2D7764F59B1C2D8 /* ModernAVPlayerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernAVPlayerConfiguration.swift; path = Sources/Core/Components/ModernAVPlayerConfiguration.swift; sourceTree = "<group>"; };
+		5F0AF0155C1632D4D42C345BB7C0EE3F /* Pods-videoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-videoTests.release.xcconfig"; sourceTree = "<group>"; };
+		62E7D361E3683DD1E1F7E4CE63E50201 /* Pods-videoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-videoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A556E644BF0CC9C96CE26372AFFA7DC /* ItemStatusObservingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemStatusObservingService.swift; path = Sources/Core/Services/ItemStatusObservingService.swift; sourceTree = "<group>"; };
+		6E56A20DBBD50E4CE4EA48440C485ECC /* ModernAVPlayerRemoteCommandFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernAVPlayerRemoteCommandFactory.swift; path = Sources/Core/Components/RemoteCommand/ModernAVPlayerRemoteCommandFactory.swift; sourceTree = "<group>"; };
+		706E6EDC938BE6F6B74A9BAFB5C0E3A5 /* ModernAVPlayerLoggerDomain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernAVPlayerLoggerDomain.swift; path = Sources/Core/Components/ModernAVPlayerLoggerDomain.swift; sourceTree = "<group>"; };
+		715DE13E4A37746C289D93700D24590D /* PausedState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PausedState.swift; path = Sources/Core/State/PausedState.swift; sourceTree = "<group>"; };
+		759896AC4BFEBF8D85722ACAC180C267 /* InterruptionAudioService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InterruptionAudioService.swift; path = Sources/Core/Services/InterruptionAudioService.swift; sourceTree = "<group>"; };
+		76F82FDD0E938B118FC214D22CC1B9FD /* CustomAudioSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomAudioSession.swift; path = Sources/Core/Components/CustomAudioSession.swift; sourceTree = "<group>"; };
+		78C2851F1E9DEA5959EFDA57E37EADE5 /* LoadingMediaState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingMediaState.swift; path = Sources/Core/State/LoadingMediaState.swift; sourceTree = "<group>"; };
+		7F15CD3F74DEA70846B0B261F0EC4751 /* ModernAVPlayerLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernAVPlayerLogger.swift; path = Sources/Core/Services/ModernAVPlayerLogger.swift; sourceTree = "<group>"; };
+		87378DE82147DB51E67AEF8D88F83420 /* StoppedState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoppedState.swift; path = Sources/Core/State/StoppedState.swift; sourceTree = "<group>"; };
+		87ECAA45F6CF5FD9D6208599A01B5B8B /* ModernAVPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ModernAVPlayer-Info.plist"; sourceTree = "<group>"; };
+		8FF08B784FC6CAD658EF9FAE38A47948 /* ModernAVPlayerCurrentState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernAVPlayerCurrentState.swift; path = Sources/Core/Components/ModernAVPlayerCurrentState.swift; sourceTree = "<group>"; };
+		904E3BA0B559383F7293D656C315A74E /* ModernAVPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernAVPlayer.swift; path = Sources/Core/ModernAVPlayer.swift; sourceTree = "<group>"; };
+		92D4AAC466872FB956F0AB5E8067370E /* ModernAVPlayerMediaMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernAVPlayerMediaMetadata.swift; path = Sources/Core/Components/ModernAVPlayerMediaMetadata.swift; sourceTree = "<group>"; };
+		98C2019C4668C30B994E6E74BF6E8DA3 /* Pods-video-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-video-dummy.m"; sourceTree = "<group>"; };
+		9A3AC76F503D56D9D676B8E175E7C19F /* RouteAudioService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouteAudioService.swift; path = Sources/Core/Services/RouteAudioService.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E8BD636589681AA5B0AADA4279CC3DE /* Pods-video.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-video.modulemap"; sourceTree = "<group>"; };
+		A51841765F74072C069812DBD3355D6F /* Pods_videoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_videoUITests.framework; path = "Pods-videoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54E0D2A44234A872473B78F226DDB41 /* TimerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerFactory.swift; path = Sources/Core/Components/TimerFactory.swift; sourceTree = "<group>"; };
+		AF58BF8DF6911AC84B3904AE7C3A2685 /* Pods-video-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-video-Info.plist"; sourceTree = "<group>"; };
+		B54C272D50D4DAE751A2A492A1A1BC0B /* PlayerCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayerCommand.swift; path = Sources/Core/Components/PlayerCommand.swift; sourceTree = "<group>"; };
+		BA895927D606B3E869A57B484DE69072 /* ModernAVPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModernAVPlayer.xcconfig; sourceTree = "<group>"; };
+		BB26CFDC44714EE3C13EA34ABC9C939F /* Pods-videoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-videoUITests.modulemap"; sourceTree = "<group>"; };
+		BFD889473F1BA106C1D51DF3350853E6 /* Pods-video-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-video-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFDF2CE951E2BC29069EEB107A18E516 /* Pods-videoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-videoUITests-umbrella.h"; sourceTree = "<group>"; };
+		C6D8AECF4821694CC755E926863357B1 /* Pods-video.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-video.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCA54ED1C07DB4943A7D501AF98FE1F5 /* Pods-video.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-video.release.xcconfig"; sourceTree = "<group>"; };
+		CDD82ECE8BB3DD854264DFFD6F72143A /* Pods-video-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-video-umbrella.h"; sourceTree = "<group>"; };
+		D34D7D55B9FA40A89A1E9E4C1BD91B05 /* Pods-videoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-videoUITests-dummy.m"; sourceTree = "<group>"; };
+		D63F4996B902B50ECE3D9128A28B77B3 /* ModernAVPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModernAVPlayer.modulemap; sourceTree = "<group>"; };
+		D79BF7F8A8AC6CED52D66C957383E1FA /* InitState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InitState.swift; path = Sources/Core/State/InitState.swift; sourceTree = "<group>"; };
+		D96352A2F64A6AB53F0A7F7114E1E7EE /* Pods-video-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-video-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB085A850BD910F94EC90ACB82A56F27 /* NowPlayingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NowPlayingService.swift; path = Sources/Core/Services/NowPlayingService.swift; sourceTree = "<group>"; };
+		E1CBC275A439CF2625F6078CC98DE388 /* PlayerMediaMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayerMediaMetadata.swift; path = Sources/Core/Components/PlayerMediaMetadata.swift; sourceTree = "<group>"; };
+		E22C2FA9DA77D4DFC03E3A62119EC539 /* Pods-videoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-videoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E4A6F90B9CDD574E0350D447370A2501 /* PlayingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayingState.swift; path = Sources/Core/State/PlayingState.swift; sourceTree = "<group>"; };
+		E7B0A119087365FB172B38ED3444EEEC /* PlayerPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayerPlugin.swift; path = Sources/Core/Components/PlayerPlugin.swift; sourceTree = "<group>"; };
+		F23B4790DF7FDF13AAF98ED22A87BAE7 /* WaitingNetworkState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WaitingNetworkState.swift; path = Sources/Core/State/WaitingNetworkState.swift; sourceTree = "<group>"; };
+		F6C18C2D7302337FB7628AC9D8C99AF1 /* PlayerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayerError.swift; path = Sources/Core/Components/PlayerError.swift; sourceTree = "<group>"; };
+		F7FEDF60750C061F0F903FD6D356FAB2 /* ModernAVPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModernAVPlayer.framework; path = ModernAVPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F848E1A69C510D9D8682A16576455E29 /* ModernAVPlayerRemoteCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernAVPlayerRemoteCommand.swift; path = Sources/Core/Components/RemoteCommand/ModernAVPlayerRemoteCommand.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3024AA698CCE3B953928BE79B5F5BBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0D4C3ACCB7314E4A63E10B5392D0D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30DAF84482D3B27A5617B10CA53A159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A903F46F671D16F9806B584097DA9BCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CDCCD5CD71D587F86BBB7DF82B70CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FBC0D91C5361C0BD1B5D52511EA0F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4789CE1FA30967CA8CFFBEC4E4F2A24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCEC017CD5A9CEEE8524F8F93B85293 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0471F6C3BF3A11AC3D65878252C2D610 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A700BDEF73AE618976684921C848AD40 /* Pods-video */,
+				970652B141167DB74869352F616032AA /* Pods-videoTests */,
+				670684355D4892E8282FA890AB97C3C9 /* Pods-videoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		238842B127E7F625D6535558D4047216 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D63F4996B902B50ECE3D9128A28B77B3 /* ModernAVPlayer.modulemap */,
+				BA895927D606B3E869A57B484DE69072 /* ModernAVPlayer.xcconfig */,
+				0AA71719D7EC5BAA36E7E43EFE1ABDFA /* ModernAVPlayer-dummy.m */,
+				87ECAA45F6CF5FD9D6208599A01B5B8B /* ModernAVPlayer-Info.plist */,
+				42A7E4C848224461CB48E2089F237421 /* ModernAVPlayer-prefix.pch */,
+				29C19668052F0600938EE1B5CFE8196D /* ModernAVPlayer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ModernAVPlayer";
+			sourceTree = "<group>";
+		};
+		670684355D4892E8282FA890AB97C3C9 /* Pods-videoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB26CFDC44714EE3C13EA34ABC9C939F /* Pods-videoUITests.modulemap */,
+				0FF313B236261D8CC4D1788DB21376EE /* Pods-videoUITests-acknowledgements.markdown */,
+				E22C2FA9DA77D4DFC03E3A62119EC539 /* Pods-videoUITests-acknowledgements.plist */,
+				D34D7D55B9FA40A89A1E9E4C1BD91B05 /* Pods-videoUITests-dummy.m */,
+				52AD27CECE320E793DDE20EBBD393CBF /* Pods-videoUITests-Info.plist */,
+				BFDF2CE951E2BC29069EEB107A18E516 /* Pods-videoUITests-umbrella.h */,
+				2B652624EDDABE6613B87F248E92CEC1 /* Pods-videoUITests.debug.xcconfig */,
+				3D9E126B99E86DE1696F428E1CEED673 /* Pods-videoUITests.release.xcconfig */,
+			);
+			name = "Pods-videoUITests";
+			path = "Target Support Files/Pods-videoUITests";
+			sourceTree = "<group>";
+		};
+		7974E4D55ED3A45FE9010A43D50E3F38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEDF60750C061F0F903FD6D356FAB2 /* ModernAVPlayer.framework */,
+				00BA61EF1771E5948BBA75AEFD930DA2 /* Pods_video.framework */,
+				0C180382A90849172D143C3968F58137 /* Pods_videoTests.framework */,
+				A51841765F74072C069812DBD3355D6F /* Pods_videoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		970652B141167DB74869352F616032AA /* Pods-videoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0ABAC88B14A807460C08DF6CC0BA2F4A /* Pods-videoTests.modulemap */,
+				19D1C340B3FDC57774AEFD9F606AC724 /* Pods-videoTests-acknowledgements.markdown */,
+				48F766989C1EED99B87D847E572A0B5F /* Pods-videoTests-acknowledgements.plist */,
+				531177045A0F9429C05473C0105E9508 /* Pods-videoTests-dummy.m */,
+				0ABBCE80C0C77110F4E8748BE0E90827 /* Pods-videoTests-Info.plist */,
+				4C8276A54EAB5AD9F69FF7F3976DEA5E /* Pods-videoTests-umbrella.h */,
+				62E7D361E3683DD1E1F7E4CE63E50201 /* Pods-videoTests.debug.xcconfig */,
+				5F0AF0155C1632D4D42C345BB7C0EE3F /* Pods-videoTests.release.xcconfig */,
+			);
+			name = "Pods-videoTests";
+			path = "Target Support Files/Pods-videoTests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A700BDEF73AE618976684921C848AD40 /* Pods-video */ = {
+			isa = PBXGroup;
+			children = (
+				9E8BD636589681AA5B0AADA4279CC3DE /* Pods-video.modulemap */,
+				D96352A2F64A6AB53F0A7F7114E1E7EE /* Pods-video-acknowledgements.markdown */,
+				BFD889473F1BA106C1D51DF3350853E6 /* Pods-video-acknowledgements.plist */,
+				98C2019C4668C30B994E6E74BF6E8DA3 /* Pods-video-dummy.m */,
+				06725339F92D4252F4B10A1069C06E21 /* Pods-video-frameworks.sh */,
+				AF58BF8DF6911AC84B3904AE7C3A2685 /* Pods-video-Info.plist */,
+				CDD82ECE8BB3DD854264DFFD6F72143A /* Pods-video-umbrella.h */,
+				C6D8AECF4821694CC755E926863357B1 /* Pods-video.debug.xcconfig */,
+				CCA54ED1C07DB4943A7D501AF98FE1F5 /* Pods-video.release.xcconfig */,
+			);
+			name = "Pods-video";
+			path = "Target Support Files/Pods-video";
+			sourceTree = "<group>";
+		};
+		AC1346B813A32B169CE3E9634E5D487F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6F1760EBDDE9655790FFE27210CDB67 /* ModernAVPlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B950FFEF7D45FD4D5B1D43613677C44E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1E59382F35764B9EE9E96A24EC82F2F0 /* AudioSessionService.swift */,
+				3DBFD976AF054BE883055B85784EF18F /* AVPlayerRemoteCommand.swift */,
+				0984B6CE4A3C0356074FB6B28069A995 /* BufferingState.swift */,
+				76F82FDD0E938B118FC214D22CC1B9FD /* CustomAudioSession.swift */,
+				19118661BE612A3BE92327DF9EB929F1 /* FailedState.swift */,
+				D79BF7F8A8AC6CED52D66C957383E1FA /* InitState.swift */,
+				759896AC4BFEBF8D85722ACAC180C267 /* InterruptionAudioService.swift */,
+				6A556E644BF0CC9C96CE26372AFFA7DC /* ItemStatusObservingService.swift */,
+				4176132A33A479FA33C6215986368BDC /* LoadedState.swift */,
+				78C2851F1E9DEA5959EFDA57E37EADE5 /* LoadingMediaState.swift */,
+				3CE4332768C2608D7DA26B2914CDCA1F /* MediaPlayer.swift */,
+				0491E77162156B55DA86BE9FB8CB832A /* MediaType.swift */,
+				904E3BA0B559383F7293D656C315A74E /* ModernAVPlayer.swift */,
+				5586B6298B3D21AAF2D7764F59B1C2D8 /* ModernAVPlayerConfiguration.swift */,
+				8FF08B784FC6CAD658EF9FAE38A47948 /* ModernAVPlayerCurrentState.swift */,
+				39BBC1343737717BACFC91A999207539 /* ModernAVPlayerExposable.swift */,
+				7F15CD3F74DEA70846B0B261F0EC4751 /* ModernAVPlayerLogger.swift */,
+				706E6EDC938BE6F6B74A9BAFB5C0E3A5 /* ModernAVPlayerLoggerDomain.swift */,
+				1E9F9AD4599427EA0FDEBFB1F09D7BAF /* ModernAVPlayerMedia.swift */,
+				92D4AAC466872FB956F0AB5E8067370E /* ModernAVPlayerMediaMetadata.swift */,
+				F848E1A69C510D9D8682A16576455E29 /* ModernAVPlayerRemoteCommand.swift */,
+				6E56A20DBBD50E4CE4EA48440C485ECC /* ModernAVPlayerRemoteCommandFactory.swift */,
+				DB085A850BD910F94EC90ACB82A56F27 /* NowPlayingService.swift */,
+				715DE13E4A37746C289D93700D24590D /* PausedState.swift */,
+				19AB1ECA952212438479BC115D68AEC4 /* PlaybackObservingService.swift */,
+				B54C272D50D4DAE751A2A492A1A1BC0B /* PlayerCommand.swift */,
+				2D57141C1BFC40A37DA5EE338E039F93 /* PlayerConfiguration.swift */,
+				2854EF7540BA95C581C4B1D648C3C869 /* PlayerContext.swift */,
+				F6C18C2D7302337FB7628AC9D8C99AF1 /* PlayerError.swift */,
+				46B83EC5221C238A56F737370107636E /* PlayerMedia.swift */,
+				E1CBC275A439CF2625F6078CC98DE388 /* PlayerMediaMetadata.swift */,
+				E7B0A119087365FB172B38ED3444EEEC /* PlayerPlugin.swift */,
+				40EC870C487ADFF650D44B06A02D12AD /* PlayerState.swift */,
+				E4A6F90B9CDD574E0350D447370A2501 /* PlayingState.swift */,
+				2DF0943B5BEF68A446FD8DF5ABE715CA /* RateObservingService.swift */,
+				0EE25485F4E0C164897F87E8B7F44C2B /* ReachabilityService.swift */,
+				9A3AC76F503D56D9D676B8E175E7C19F /* RouteAudioService.swift */,
+				87378DE82147DB51E67AEF8D88F83420 /* StoppedState.swift */,
+				A54E0D2A44234A872473B78F226DDB41 /* TimerFactory.swift */,
+				458F839388C1D419B4F2121F33BB5DC2 /* URLSessionDataTaskFactory.swift */,
+				F23B4790DF7FDF13AAF98ED22A87BAE7 /* WaitingNetworkState.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AC1346B813A32B169CE3E9634E5D487F /* Pods */,
+				7974E4D55ED3A45FE9010A43D50E3F38 /* Products */,
+				0471F6C3BF3A11AC3D65878252C2D610 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6F1760EBDDE9655790FFE27210CDB67 /* ModernAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B950FFEF7D45FD4D5B1D43613677C44E /* Core */,
+				238842B127E7F625D6535558D4047216 /* Support Files */,
+			);
+			name = ModernAVPlayer;
+			path = ModernAVPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		341FCD336CE6507208DAC7A6D5938664 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2712262AE85D46FCF885A0A5B7E9B0E0 /* Pods-videoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90FFF59BB19F519E5FECD4C653D9890B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99C0BC1291F4144B42EDD2F8DD0B930 /* ModernAVPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5DCA8332F01B987230FEA782064A14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9D853D6466C7C2A0C7B405F8FDB06C /* Pods-video-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECABF989D6DF6506B2D07CE88F2A3E07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703A954309C4AB60CEF4C4BF4F7EA799 /* Pods-videoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0672FC5E4A7F9DF5682FFE9743EBEA30 /* ModernAVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CDA03A485520A00931A0CA41746266B /* Build configuration list for PBXNativeTarget "ModernAVPlayer" */;
+			buildPhases = (
+				90FFF59BB19F519E5FECD4C653D9890B /* Headers */,
+				7FFBAC589133E27A6C13637F168D44B3 /* Sources */,
+				A30DAF84482D3B27A5617B10CA53A159 /* Frameworks */,
+				A9E92D09673AE306E0B303FF95A6CC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModernAVPlayer;
+			productName = ModernAVPlayer;
+			productReference = F7FEDF60750C061F0F903FD6D356FAB2 /* ModernAVPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		326070E187970B2BB55FD2A1A8D2CEAE /* Pods-videoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448115EECF2EE9A812900C74C717A876 /* Build configuration list for PBXNativeTarget "Pods-videoUITests" */;
+			buildPhases = (
+				341FCD336CE6507208DAC7A6D5938664 /* Headers */,
+				E84BD5ABFBDE76CF869AA54631344FBD /* Sources */,
+				3024AA698CCE3B953928BE79B5F5BBC4 /* Frameworks */,
+				C6FA4AF8CE6C3C2DCBE2814F07184785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04E3A3B12AD2C32EEBA015441EB08D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-videoUITests";
+			productName = "Pods-videoUITests";
+			productReference = A51841765F74072C069812DBD3355D6F /* Pods_videoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		559F69EB8D99F5E6A3C207CF374BF428 /* Pods-video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5F38F626B13C8B7F9A97B54C5C3372 /* Build configuration list for PBXNativeTarget "Pods-video" */;
+			buildPhases = (
+				CA5DCA8332F01B987230FEA782064A14 /* Headers */,
+				17B42B71C4A02B248400301478F16267 /* Sources */,
+				A4CDCCD5CD71D587F86BBB7DF82B70CF /* Frameworks */,
+				E1094CC3618113C89DFBDC0B33355CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A5C2E3602DE520638487C0DF25D49B6 /* PBXTargetDependency */,
+			);
+			name = "Pods-video";
+			productName = "Pods-video";
+			productReference = 00BA61EF1771E5948BBA75AEFD930DA2 /* Pods_video.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7329260A9EF148C988F86E47379E89B /* Pods-videoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D326B7DD28E1171B667C08774B5E37 /* Build configuration list for PBXNativeTarget "Pods-videoTests" */;
+			buildPhases = (
+				ECABF989D6DF6506B2D07CE88F2A3E07 /* Headers */,
+				5EA6C9956BCF968224D4886E1A321B37 /* Sources */,
+				D4789CE1FA30967CA8CFFBEC4E4F2A24 /* Frameworks */,
+				3533F1FC95B1F84CCCEA1F9C77707687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2643F3A211E40F28FF4A810C4B475CFB /* PBXTargetDependency */,
+			);
+			name = "Pods-videoTests";
+			productName = "Pods-videoTests";
+			productReference = 0C180382A90849172D143C3968F58137 /* Pods_videoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7974E4D55ED3A45FE9010A43D50E3F38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0672FC5E4A7F9DF5682FFE9743EBEA30 /* ModernAVPlayer */,
+				559F69EB8D99F5E6A3C207CF374BF428 /* Pods-video */,
+				E7329260A9EF148C988F86E47379E89B /* Pods-videoTests */,
+				326070E187970B2BB55FD2A1A8D2CEAE /* Pods-videoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3533F1FC95B1F84CCCEA1F9C77707687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E92D09673AE306E0B303FF95A6CC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FA4AF8CE6C3C2DCBE2814F07184785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1094CC3618113C89DFBDC0B33355CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B42B71C4A02B248400301478F16267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606EE6B3FE97DEB29FC0C8CD69E31564 /* Pods-video-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA6C9956BCF968224D4886E1A321B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4480E37DB8AE893D75EB67EE6294296 /* Pods-videoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFBAC589133E27A6C13637F168D44B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D818A022A41624C67DE52923B30E3FC1 /* AudioSessionService.swift in Sources */,
+				B8E5CCFBE1502FCACF04415138FEC7AD /* AVPlayerRemoteCommand.swift in Sources */,
+				38D217352D1E5A5EF3247C4D7A4A0380 /* BufferingState.swift in Sources */,
+				FEBB8B33EDE8D0DFB0669F4D145CC06C /* CustomAudioSession.swift in Sources */,
+				D48862B8B6EAC84498450762F58B1AD7 /* FailedState.swift in Sources */,
+				4BDAF6C8895ED93D2708D1E8C952D654 /* InitState.swift in Sources */,
+				312589BDBB119D0259A1B5D7A1FC6945 /* InterruptionAudioService.swift in Sources */,
+				50110E873FD0003DCA53A06BACED2C74 /* ItemStatusObservingService.swift in Sources */,
+				47A4A1F56E80C3579E41AAEA56600C19 /* LoadedState.swift in Sources */,
+				F464A50F5769630D162C51B5DD29B4F4 /* LoadingMediaState.swift in Sources */,
+				33ADD43AC4ED5D5D0764D401508A6DD0 /* MediaPlayer.swift in Sources */,
+				6BBF37440B958710A5A0812FC4CA3378 /* MediaType.swift in Sources */,
+				009F0AC1609F5051CE43CBB93D5736BA /* ModernAVPlayer-dummy.m in Sources */,
+				837C67E4ED33768C801C013B2F4CE8DC /* ModernAVPlayer.swift in Sources */,
+				FD3BD5D097ECB3DC77BF4B5A9BA69470 /* ModernAVPlayerConfiguration.swift in Sources */,
+				5D5BB8E906F952460203257B0ED0FE07 /* ModernAVPlayerCurrentState.swift in Sources */,
+				441535FF4CB2BFB6761A3CC4D256341C /* ModernAVPlayerExposable.swift in Sources */,
+				1829779037F6BF0F8C9984B502E42675 /* ModernAVPlayerLogger.swift in Sources */,
+				1D821CB972717168B46EA66783BE3DD4 /* ModernAVPlayerLoggerDomain.swift in Sources */,
+				AE8AAAF559F20437D7F933D81263623B /* ModernAVPlayerMedia.swift in Sources */,
+				72C2A2D795CD3F2B85360D8A52C7B84B /* ModernAVPlayerMediaMetadata.swift in Sources */,
+				75A54B3856D23F0392C25F369B8EC00C /* ModernAVPlayerRemoteCommand.swift in Sources */,
+				9393F284958D3FEF3359AA8F468AFA39 /* ModernAVPlayerRemoteCommandFactory.swift in Sources */,
+				B7EC1D3B5780E2C8EEA506630A15C8AA /* NowPlayingService.swift in Sources */,
+				D3B006DEA314FB818C309517B0261BA2 /* PausedState.swift in Sources */,
+				7C1EB4F6AE79A0C09119C54C02E8148E /* PlaybackObservingService.swift in Sources */,
+				208A9867C2D6FA8BE4F253B43E033F25 /* PlayerCommand.swift in Sources */,
+				1F950D4757A33194164E6E92ABCB6AA5 /* PlayerConfiguration.swift in Sources */,
+				059C0034511150B35A306B6EEAF395EF /* PlayerContext.swift in Sources */,
+				A46479BA9E52451E9D8C312A05A69997 /* PlayerError.swift in Sources */,
+				D30DD055422016CDE98FC43100C3CFD1 /* PlayerMedia.swift in Sources */,
+				F3FB5F07FE743772E94E9C4912646CCC /* PlayerMediaMetadata.swift in Sources */,
+				B076BD3CAF077CF168D0DA50FDE3AECB /* PlayerPlugin.swift in Sources */,
+				D9B10C7D0AE5D2FB14714885A5B4C852 /* PlayerState.swift in Sources */,
+				E07FF7FED3C5BB155308B786F98314F2 /* PlayingState.swift in Sources */,
+				B0EC81D59CCD1B6C0C2C15BA7D4C8C51 /* RateObservingService.swift in Sources */,
+				C4630BFC7D9D180878533F07D230B14A /* ReachabilityService.swift in Sources */,
+				CB44DFC6E9A8EE4D209A96F9E36A248D /* RouteAudioService.swift in Sources */,
+				32481259E5DF5C428E00C9237E868FD5 /* StoppedState.swift in Sources */,
+				4D9B8DE33F62622961FF858E342AB221 /* TimerFactory.swift in Sources */,
+				CAAB7D167F7AA87554752723F9788AAE /* URLSessionDataTaskFactory.swift in Sources */,
+				8EB1B08D6B4D23446BF4F2CA08B910DD /* WaitingNetworkState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84BD5ABFBDE76CF869AA54631344FBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA6064F68434833F6CB529FE44AEA84 /* Pods-videoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A5C2E3602DE520638487C0DF25D49B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModernAVPlayer;
+			target = 0672FC5E4A7F9DF5682FFE9743EBEA30 /* ModernAVPlayer */;
+			targetProxy = 8057A18E781ABFD00A43FE96B671F029 /* PBXContainerItemProxy */;
+		};
+		2643F3A211E40F28FF4A810C4B475CFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-video";
+			target = 559F69EB8D99F5E6A3C207CF374BF428 /* Pods-video */;
+			targetProxy = D574A56A33D3F041F7A938A0E4B61294 /* PBXContainerItemProxy */;
+		};
+		D04E3A3B12AD2C32EEBA015441EB08D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-video";
+			target = 559F69EB8D99F5E6A3C207CF374BF428 /* Pods-video */;
+			targetProxy = 8582876C11A5CD0966817910993AD1E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18FA0CABED6FFE35DAC9FA14961556C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B652624EDDABE6613B87F248E92CEC1 /* Pods-videoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-videoUITests/Pods-videoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-videoUITests/Pods-videoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C432BDCBB8ABF6599D69CD97F018E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA54ED1C07DB4943A7D501AF98FE1F5 /* Pods-video.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-video/Pods-video-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-video/Pods-video.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F072FBED4BD4B44C60750F6A1393840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E7D361E3683DD1E1F7E4CE63E50201 /* Pods-videoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-videoTests/Pods-videoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-videoTests/Pods-videoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A100F54EA90016B4946E7E16EF6C45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA895927D606B3E869A57B484DE69072 /* ModernAVPlayer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ModernAVPlayer/ModernAVPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModernAVPlayer/ModernAVPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ModernAVPlayer/ModernAVPlayer.modulemap";
+				PRODUCT_MODULE_NAME = ModernAVPlayer;
+				PRODUCT_NAME = ModernAVPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DDEA5260B95F4FCC67C9E13634C2235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9E126B99E86DE1696F428E1CEED673 /* Pods-videoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-videoUITests/Pods-videoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-videoUITests/Pods-videoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BF9FAE043A723A5D17B946C32F1D80D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0AF0155C1632D4D42C345BB7C0EE3F /* Pods-videoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-videoTests/Pods-videoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-videoTests/Pods-videoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C198667F176E2DDECF8F6D44B1B0B8BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D8AECF4821694CC755E926863357B1 /* Pods-video.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-video/Pods-video-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-video/Pods-video.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F341B21873C7F24AA51804B99620D982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA895927D606B3E869A57B484DE69072 /* ModernAVPlayer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ModernAVPlayer/ModernAVPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModernAVPlayer/ModernAVPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ModernAVPlayer/ModernAVPlayer.modulemap";
+				PRODUCT_MODULE_NAME = ModernAVPlayer;
+				PRODUCT_NAME = ModernAVPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17D326B7DD28E1171B667C08774B5E37 /* Build configuration list for PBXNativeTarget "Pods-videoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F072FBED4BD4B44C60750F6A1393840 /* Debug */,
+				BF9FAE043A723A5D17B946C32F1D80D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448115EECF2EE9A812900C74C717A876 /* Build configuration list for PBXNativeTarget "Pods-videoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FA0CABED6FFE35DAC9FA14961556C1 /* Debug */,
+				5DDEA5260B95F4FCC67C9E13634C2235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CDA03A485520A00931A0CA41746266B /* Build configuration list for PBXNativeTarget "ModernAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A100F54EA90016B4946E7E16EF6C45F /* Debug */,
+				F341B21873C7F24AA51804B99620D982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5F38F626B13C8B7F9A97B54C5C3372 /* Build configuration list for PBXNativeTarget "Pods-video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C198667F176E2DDECF8F6D44B1B0B8BF /* Debug */,
+				3C432BDCBB8ABF6599D69CD97F018E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
