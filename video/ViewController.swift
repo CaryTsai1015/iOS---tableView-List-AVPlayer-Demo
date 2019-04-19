@@ -62,7 +62,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
 
     
-    @IBOutlet weak var tsbleView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
     
 
     var mUrlArror = [String]()
@@ -77,9 +77,9 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         mUrlArror.append("http://techslides.com/demos/sample-videos/small.mp4")
         mUrlArror.append("http://yt-dash-mse-test.commondatastorage.googleapis.com/media/car-20120827-85.mp4")
         
-        tsbleView.register(UINib(nibName:"videoTableViewCell", bundle:nil),forCellReuseIdentifier:"videoTableViewCell")
-        tsbleView.delegate = self
-        tsbleView.dataSource = self
+        tableView.register(UINib(nibName:"videoTableViewCell", bundle:nil),forCellReuseIdentifier:"videoTableViewCell")
+        tableView.delegate = self
+        tableView.dataSource = self
         imagePickerController.delegate = self
         imagePickerController.modalTransitionStyle = .flipHorizontal
         imagePickerController.allowsEditing = true
@@ -92,10 +92,6 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     func setCamera(){
         
-//        let cameraStatus = AVCaptureDevice.authorizationStatus(for: .video)
-
-//        if imagePickerController.cameraCaptureMode == .photo{
-        
             imagePickerController.sourceType = UIImagePickerController.SourceType.camera
             imagePickerController.mediaTypes = [kUTTypeMovie as String]
             
@@ -104,12 +100,6 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
             imagePickerController.cameraCaptureMode = UIImagePickerController.CameraCaptureMode.video
             
             self.present(imagePickerController, animated: true, completion: nil)
-            
-//        }
-        
-     
-
-        
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -120,7 +110,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
 //            UISaveVideoAtPathToSavedPhotosAlbum(Url.path, self, nil, nil)
 
  
-            tsbleView.reloadData()
+            tableView.reloadData()
 //            let playerLayer = AVPlayerLayer(player: player)
 //            playerLayer.frame = self.cameraVIew.bounds
 //            self.cameraVIew.layer.addSublayer(playerLayer)
